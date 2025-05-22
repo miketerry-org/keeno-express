@@ -1,0 +1,45 @@
+{
+  "name": "multitenant-express",
+  "version": "0.1.9",
+  "description": "Adds multitenant capability to express applications",
+  "main": "index.js",
+  "scripts": {
+    "dev": "NODE)ENV=dev nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "express-fileupload": "^1.5.1",
+    "express-mongo-sanitize": "^2.2.0",
+    "express-rate-limit": "^7.5.0",
+    "express-validator": "^7.2.1",
+    "helmet": "^8.1.0",
+    "hpp": "^0.2.3",
+    "jsonwebtoken": "^9.0.2",
+    "morgan": "^1.10.0",
+    "randomatic": "^3.1.1",
+    "topsecret-env": "^0.1.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/miketerry-org/multitenant-express.git"
+  },
+  "keywords": [
+    "express",
+    "tenant",
+    "tenants",
+    "multitenant"
+  ],
+  "author": "Mike Terry",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/miketerry-org/multitenant-express/issues"
+  },
+  "homepage": "https://github.com/miketerry-org/multitenant-express#readme"
+}
