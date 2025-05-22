@@ -1,6 +1,6 @@
 {
-  "name": "multitenant-express",
-  "version": "0.1.9",
+  "name": "keeno-express",
+  "version": "0.0.1",
   "description": "Adds multitenant capability to express applications",
   "main": "index.js",
   "scripts": {
